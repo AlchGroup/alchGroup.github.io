@@ -18,7 +18,7 @@ module.exports = function (grunt) {
                             'bower_components/neat/app/assets/stylesheets']
               },
               files: {
-                'app.css': 'app.scss'
+                'app.css': 'sass/app.scss'
               }
             }
           },

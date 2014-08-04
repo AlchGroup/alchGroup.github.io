@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <title>ALCH Capital</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+  <header>
+    <div class="box">
+    <logo>ALCH</logo>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>Portfolio</li>
+        <li class="active">Contact</li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <section class="container contact-page">
+    <div class="box">
+      <form method='POST' action="http://forms.brace.io/chikara.aditya@gmail.com">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" value="" placeholer="Your Name" required/>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="_replyto" id="email" value="" placeholer="yourname@yourcompany.com" required />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea name="message" cols="40" rows="10" id="message" value="" required></textarea>
+        </div>
+        <input type="hidden" name="_next" value="http://alch.local/index.html" />
+        <div class="right">
+          <button type="submit" class="btn primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="box">
+    © Copyright 2014, ALCH Capital Pte Ltd
+    </div>
+  </footer>
+
+  </body>
+</html>
