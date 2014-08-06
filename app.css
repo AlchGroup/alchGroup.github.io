@@ -1,5 +1,5 @@
 body {
-  background-color: #1bbc9b;
+  background-color: #353d48;
   margin: 0 auto;
   font-family: Sans-Serif;
   font-size: 16px;
@@ -53,7 +53,7 @@ input {
   margin-bottom: 15.45117px;
   padding: 5.90207px;
   background-color: white;
-  border-radius: border-radius;
+  border-radius: 2px;
   border: 1px solid white;
   font-family: Sans-Serif;
   font-size: 16px; }
@@ -91,10 +91,10 @@ input[type="submit"] {
   padding: 9.54955px;
   font-family: Sans-Serif;
   font-size: 16px;
-  background-color: #1bbc9b;
+  background-color: #353d48;
   color: white;
   border: 2px solid white;
-  border-radius: border-radius; }
+  border-radius: 2px; }
 
 header .box {
   display: -webkit-box;
@@ -143,14 +143,17 @@ nav ul {
   display: -ms-flexbox;
   display: flex; }
   nav ul li {
-    padding: 15.45117px;
     color: white;
     text-transform: uppercase;
     cursor: pointer;
     border-top: 4px solid transparent; }
     nav ul li a {
+      display: block;
+      padding: 15.45117px;
       color: white;
       text-decoration: none; }
+    nav ul li.active {
+      padding: 15.45117px; }
     nav ul li:hover, nav ul li.active {
       border-top-color: white; }
 

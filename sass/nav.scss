@@ -2,12 +2,16 @@ nav {
 	ul { 
 		@include display(flex);
 		li {
-			padding: modular-scale($base-spacing, -1, $golden);
 			color: $white;
 			text-transform: uppercase;
 			a {
+				display: block;
+				padding: modular-scale($base-spacing, -1, $golden);
 				color: $white;
 				text-decoration: none;
+			}
+			&.active {
+				padding: modular-scale($base-spacing, -1, $golden);
 			}
 			cursor: pointer;
 			border-top: 4px solid transparent;

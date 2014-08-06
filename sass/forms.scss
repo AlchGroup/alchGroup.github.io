@@ -14,7 +14,7 @@ input {
 	margin-bottom: modular-scale($base-spacing, -1, $golden);
 	padding: modular-scale($base-spacing, -3, $golden);
 	background-color: $white;
-	border-radius: border-radius;
+	border-radius: $border-radius;
 	border: 1px solid $white;
 	font-family: $base-font-family;
 	font-size: $base-font-size;
