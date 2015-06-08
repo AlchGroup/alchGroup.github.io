@@ -1,10 +1,8 @@
 {
-  "name": "alchCapital",
+  "name": "AlchCapital",
   "private": true,
   "dependencies": {
-    "bourbon": "~4.0.2",
-    "neat": "~1.6.0",
-    "normalize-css": "~3.0.1"
+    "sanitize-css": "~1.1.0"
   },
   "devDependencies": {
   }

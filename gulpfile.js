@@ -12,7 +12,8 @@ var paths = {
 gulp.task('sass', function () {
     gulp.src('./stylesheets/app.scss')
         .pipe(sourcemaps.init())
-        .pipe(sass({includePaths: ['./bower_components/bourbon/dist/',
+        .pipe(sass({includePaths: ['./bower_components/sanitize-css/dist/',
+                                  './bower_components/bourbon/dist/',
                                   './bower_components/neat/app/assets/stylesheets'],
                                   style: 'expanded'}))
         .pipe(sourcemaps.write({includeContent: false}))
