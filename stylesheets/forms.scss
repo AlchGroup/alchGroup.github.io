@@ -1,0 +1,39 @@
+input,
+label {
+  display: block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+label {
+  margin-bottom: modular-scale($base-spacing, -6, $golden);
+}
+
+textarea,
+input {
+  background-color: $white;
+  border: 1px solid $white;
+  border-radius: $border-radius;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  margin-bottom: modular-scale($base-spacing, -1, $golden);
+  padding: modular-scale($base-spacing, -3, $golden);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="search"] {
+  appearance: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: modular-scale($base-spacing, -4, $golden);
+}

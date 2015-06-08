@@ -1,0 +1,29 @@
+nav {
+  ul {
+    display: flex;
+
+    li {
+      color: $white;
+      text-transform: uppercase;
+
+      a {
+        color: $white;
+        display: block;
+        padding: modular-scale($base-spacing, -1, $golden);
+        text-decoration: none;
+      }
+
+      &.active {
+        padding: modular-scale($base-spacing, -1, $golden);
+      }
+
+      cursor: pointer;
+      border-top: 4px solid transparent;
+
+      &:hover,
+      &.active {
+        border-top-color: $white;
+      }
+    }
+  }
+}

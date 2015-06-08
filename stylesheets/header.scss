@@ -1,0 +1,13 @@
+header {
+  .box {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    logo {
+      color: $white;
+      font-size: 4.5vmax;
+      padding: modular-scale($base-spacing, -1, $golden);
+    }
+  }
+}

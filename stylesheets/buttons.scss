@@ -1,0 +1,15 @@
+button,
+input[type="submit"] {
+  appearance: none;
+  background-color: $brand-green;
+  border: 2px solid $white;
+  border-radius: $border-radius;
+  color: $white;
+  cursor: pointer;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  padding: modular-scale($base-spacing, -2, $golden);
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}

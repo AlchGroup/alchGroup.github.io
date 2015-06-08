@@ -1,12 +1,14 @@
 {
-  "name": "VM",
+  "name": "Alch",
   "version": "0.0.1",
   "dependencies": {
-    "grunt": "^0.4.2",
-    "load-grunt-tasks": "^0.6.0",
-    "grunt-contrib-sass": "^0.7.2",
-    "grunt-contrib-concat": "^0.4.0"
   },
   "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.3.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-webserver": "^0.9.1"
   }
 }

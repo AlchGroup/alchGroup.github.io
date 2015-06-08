@@ -1,0 +1,18 @@
+.contact-page .box {
+  display: flex;
+  justify-content: center;
+
+  form {
+    min-width: 40%;
+    width: 50vmin;
+
+    textarea,
+    input {
+      width: 100%;
+    }
+
+    .right {
+      text-align: right;
+    }
+  }
+}

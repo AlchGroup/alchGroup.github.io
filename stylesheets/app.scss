@@ -1,0 +1,42 @@
+@import 'bourbon';
+@import 'theme';
+
+body {
+  background-color: $brand-green;
+  display: flex;
+  flex-direction: column;
+  font-family: $base-font-family;
+  font-size: 16px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.box {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Reset the box-sizing
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+@import 'forms';
+@import 'buttons';
+@import 'header';
+@import 'footer';
+@import 'nav';
+@import 'container';
+@import 'contact';
+@import 'home';

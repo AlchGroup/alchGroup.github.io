@@ -1,0 +1,8 @@
+.container {
+  flex: 1;
+
+  .box {
+    color: $white;
+    padding: modular-scale($base-spacing, -1, $golden);
+  }
+}

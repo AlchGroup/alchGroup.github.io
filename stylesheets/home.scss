@@ -1,0 +1,15 @@
+.home-page {
+  display: flex;
+
+  .box {
+    align-self: center;
+    flex: 1;
+    text-align: center;
+
+    .company-name {
+      display: block;
+      font-size: 8vmin;
+      font-weight: bold;
+    }
+  }
+}
